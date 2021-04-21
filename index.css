@@ -17,12 +17,11 @@ body {
 
 .container {
     max-width: 700px;
-    width: 100%;
     background: #fff;
     margin: 0px auto 0px;
     box-shadow: 1px 1px 2px #dad7d7;
     border-radius: 3px;
-    padding: 0 16px;
+    padding: 30px;
     margin-top: 10px;
 }
 /* ===Header=== */
@@ -53,7 +52,7 @@ body {
     height: 10px;
     display: inline-block;
     border-left: 2px solid #999;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 .objective {
@@ -178,4 +177,11 @@ a:hover {
 
 .reasons-for-job {
     list-style-position: inside;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
