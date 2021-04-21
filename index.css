@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    background: #eee;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #dad7d7;
+    border-radius: 3px;
+    padding: 0 16px;
+    margin-top: 10px;
+}
+/* ===Header=== */
+
+.header {
+    margin-bottom: 30px;
+}
+
+.full-name {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.email,
+.phone {
+    color: #999;
+    font-weight: 300;
+}
+
+.link {
+    font-style: initial;
+    color: black;
+}
+
+.header .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+}
+
+.objective {
+    font-size: 15px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #e60021;
+}
+
+.section__title {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #e60021;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+/* === Education === */
+
+.education__box {
+    display: flex;
+}
+
+.education__box-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.education__box-item div {
+    height: 100%;
+}
+
+.education__box-item:nth-child(1) {
+    flex-grow: 2;
+}
+
+.education__box-item:nth-child(2) {
+    flex-grow: 1;
+}
+
+.uni {
+    font-size: 13px;
+    font-weight: 800;
+}
+/* Skills */
+
+.main-skills {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+/* Skills */
+
+.skills-box {
+    display: flex;
+    padding: 10px;
+}
+
+.skills-container:nth-child(1) {
+    flex-grow: 2;
+}
+
+.skills-container:nth-child(2) {
+    flex-grow: 1;
+}
+/* Experience */
+
+.course-name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.todo-features {
+    list-style-position: inside;
+    list-style: blue;
+}
+
+.certificate {
+    width: 500px;
+    height: auto;
+}
+
+.certificate-box {
+    position: absolute;
+    padding: 10px;
+    background-color: #54afe4;
+}
+/* ===Projects=== */
+
+.microblog {
+    padding-top: 10px;
+}
+/* ===Employment=== */
+
+.factory-name {
+    margin-top: 10px;
+    font-weight: 600;
+}
+/* ===About me=== */
+
+.about-me-introduction {
+    margin-top: 10px;
+}
+
+.reasons-for-job {
+    list-style-position: inside;
+}
